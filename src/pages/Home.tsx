@@ -1,5 +1,7 @@
+import { Heading } from "../components/Heading";
+
 export function Home() {
     return (
-        <h1>Home</h1>
+        <Heading />
     );
 }
