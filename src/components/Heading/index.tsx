@@ -39,6 +39,9 @@ export function Heading() {
             <Link href='#'>Career</Link>
           </Navlink>
           <Navlink>
+            <Link href='#'>Portifolio</Link>
+          </Navlink>
+          <Navlink>
             <Link href='#'>Contact</Link>
           </Navlink>
         </Navbar>
