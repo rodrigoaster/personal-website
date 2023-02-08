@@ -23,5 +23,6 @@ export const GlobalStyles = createGlobalStyle`
 
     a {
         font-family: 'Titillium Web', sans-serif;
+        text-decoration: none;
     }
  `   
