@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export const Body = styled(motion.div)`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   color: #fff;
@@ -24,14 +24,15 @@ export const ImgBox = styled(motion.div)`
 
   border-radius: 20px;
 
-  margin-top: 70px;
+  margin-top: 5rem;
+  margin-left: 5rem;
 `
 
 
 
 export const Img = styled(motion.img)`
-  width: 350px;
-  height: 400px;
+  width: 21.875rem;
+  height: 25rem;
 
   border-radius: 20px;
 
@@ -40,7 +41,9 @@ export const Img = styled(motion.img)`
 
 
 export const TextContainer = styled(motion.p)`
-  width: 38%;
+  width: 40%;
+
+  margin-top: 1.563px;
 `
 
 export const Title = styled(motion.h1)`
@@ -49,11 +52,13 @@ export const Title = styled(motion.h1)`
 `
 
 export const Subtitle = styled(motion.h2)`
+  width: 85%;
+
   font-size: 27px;
 `
 
 export const Paragraph = styled(motion.p)`
-  width: 80%;
+  width: 75%;
 
   color: #808080;
 
