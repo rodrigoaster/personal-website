@@ -1,28 +1,29 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Inter';
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+  }
 
-    html {
-        height: 100%;
-        background-color: #121214;
-    }
+  body {
+    height: 100%;
+    background-color: ${props => props.theme.colores.background};
+    color: ${props => props.theme.colores.color};
+  }
 
-    input:focus {
-        outline: 0;
-    }
+  input:focus {
+    outline: 0;
+  }
 
-    ul {
-        list-style-type: none;
-    }
+  ul {
+    list-style-type: none;
+  }
 
-    a {
-        font-family: 'Titillium Web', sans-serif;
-        text-decoration: none;
-    }
- `
+  a {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+  }
+`
