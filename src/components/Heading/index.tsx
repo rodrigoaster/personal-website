@@ -1,4 +1,4 @@
-import { Container, Logo, Nav, Navbar, Navlink, Link } from './styles';
+import { Container, Logo, Navbar, Navlink, Link } from './styles';
 
 import imgLogo from '../../../public/logo.png'
 
@@ -30,13 +30,10 @@ export function Heading() {
       >
         <img src={imgLogo} alt="logo of header" />
       </Logo>
-      <Nav>
+      <nav>
         <Navbar>
           <Navlink>
             <Link href='#'>Home</Link>
-          </Navlink>
-          <Navlink>
-            <Link href='#'>Career</Link>
           </Navlink>
           <Navlink>
             <Link href='#'>Portifolio</Link>
@@ -45,7 +42,7 @@ export function Heading() {
             <Link href='#'>Contact</Link>
           </Navlink>
         </Navbar>
-      </Nav>
+      </nav>
     </Container>
   );
 }

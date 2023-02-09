@@ -9,13 +9,14 @@ export const Container = styled(motion.div)`
   justify-content: space-between;
   align-items: center;
   
-  padding: 15px 100px;
+  padding: 5px 100px;
 
   color: #fff;
 
   position: fixed;
-
 `;
+
+
 
 export const Logo = styled(motion.div)`
   
@@ -25,9 +26,8 @@ export const Logo = styled(motion.div)`
   }
   
 `
-export const Nav = styled.nav`
-  
-`
+
+
 export const Navbar = styled.ul`
   display: flex; 
 
@@ -39,7 +39,7 @@ export const Navlink = styled.li`
 `
 
 export const Link = styled.a`
-  font-size: 24px;
+  font-size: 20px;
 
   text-decoration: none;
 
