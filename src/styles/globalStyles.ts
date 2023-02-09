@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 
     html {
         height: 100%;
-        background-color: #000000;
+        background-color: #121214;
     }
 
     input:focus {
@@ -25,4 +25,4 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Titillium Web', sans-serif;
         text-decoration: none;
     }
- `   
+ `
