@@ -7,8 +7,6 @@ export const Body = styled(motion.div)`
   justify-content: space-between;
   align-items: center;
 
-  color: #fff;
-
   height: 100vh;
 `
 
@@ -20,7 +18,7 @@ export const ImgBox = styled(motion.div)`
   display: flex;
   justify-content: center;
   
-  background-color: #000000;
+  background-color: ${props => props.theme.colores.background};
 
   border-radius: 20px;
 
@@ -60,7 +58,7 @@ export const Subtitle = styled(motion.h2)`
 export const Paragraph = styled(motion.p)`
   width: 75%;
 
-  color: #808080;
+  color: ${props => props.theme.colores.text_light};
 
   font-size: 18px;
   font-weight: 300;
@@ -68,9 +66,7 @@ export const Paragraph = styled(motion.p)`
 
 export const Link = styled(motion.a)`
   text-decoration: none;
-
-  color: #fff;
-
+  
   :hover {
     color: #808080;
     transition: .5s ease-in-out;

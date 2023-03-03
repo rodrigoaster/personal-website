@@ -11,20 +11,16 @@ export const Container = styled(motion.div)`
   
   padding: 5px 100px;
 
-  color: #fff;
-
   position: fixed;
 `;
 
 
 
 export const Logo = styled(motion.div)`
-  
   img {
     width: 9.375rem;
     height: 7.5rem;
-  }
-  
+  }  
 `
 
 
@@ -43,8 +39,6 @@ export const Link = styled.a`
 
   text-decoration: none;
 
-  color: #fff;
-
   position: relative;
 
   :after {
@@ -53,7 +47,7 @@ export const Link = styled.a`
     height: 0.125rem;
     bottom: 0;
     right: 0;
-    background-color: #fff;
+    background-color: ${props => props.theme.colores.text};
     transition: 0.2s ease-in-out ;
     position: absolute;
   }
