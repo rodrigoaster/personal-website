@@ -2,7 +2,7 @@ export default {
   title: 'dark',
   
   colores: {
-    background: '#f5f5f5',
+    background: '#000000',
     text: '#fff',
     text_light: '#d3d3d3'
   }
