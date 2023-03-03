@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     height: 100%;
     background-color: ${props => props.theme.colores.background};
-    color: ${props => props.theme.colores.color};
+    color: ${props => props.theme.colores.text};
   }
 
   input:focus {
@@ -24,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
 
   a {
     font-family: 'Titillium Web', sans-serif;
+    color: ${props => props.theme.colores.text};
     text-decoration: none;
   }
 `
