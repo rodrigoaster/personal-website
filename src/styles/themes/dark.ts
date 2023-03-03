@@ -1,9 +1,9 @@
 export default {
-  title: 'light',
+  title: 'dark',
   
   colores: {
     background: '#f5f5f5',
-    text: '#000',
-    text_light: '#808080'
+    text: '#fff',
+    text_light: '#d3d3d3'
   }
 }
